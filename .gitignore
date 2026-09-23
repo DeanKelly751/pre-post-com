@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.cursor/
+
+# Logs and run data (machine-specific)
+logs/
+
+# Lock file (large, reproducible via `uv sync`)
+uv.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model caches (downloaded at runtime)
+*.pt
+*.bin
+*.onnx
+*.safetensors
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# NLTK data
+nltk_data/
